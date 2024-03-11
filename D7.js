@@ -11,7 +11,7 @@
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
 */
 const numbers = [2,3,4,5,6,7,8,9,]
-const filteredNum = numbers.filter(number => number %3)
+const filteredNum = numbers.filter(number => number %2 === 0)
 console.log(filteredNum)
 
 /* ESERCIZIO 4 (forEach)
