@@ -10,6 +10,9 @@
 /* ESERCIZIO 3 (filter)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
 */
+const numbers = [2,3,4,5,6,7,8,9,]
+const filteredNum = numbers.filter(number => number %3)
+console.log(filteredNum)
 
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
@@ -21,7 +24,9 @@
 
 /* ESERCIZIO 6 (map)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
-*/
+*/const numArray = [1, 7, 52, 48, 63, 145]
+const numAdd = numArray.map(num => num *5);
+console.log (numAdd)
 
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
